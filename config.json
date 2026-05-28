@@ -1,0 +1,22 @@
+{
+	"shortClientName": "Nelon",
+	"clientName": "NELON",
+	"version": "1.21.4",
+	"supportEmail": "support@sk3dcoin.art",
+	"url": "alekdlc.xyz",
+	"ajaxUrl": "http://localhost:3000/ajax/",
+	"funpayLink": "https://funpay.com/users/17387311/",
+	"turnStileSiteKey": "0x4AAAAAACJBd3RlH8e24TIf",
+	"clientColor": "#92a5d5",
+
+	"socials": {
+		"discord": "https://discord.gg/MHns4Wrg55",
+		"telegram": "https://t.me/alekclient"
+	},
+
+	"media": {
+		"first": "https://www.youtube.com/embed/MmB9b5njVbA?si=47mhj_I7ZOz62Ona",
+		"two": "https://www.youtube.com/embed/MmB9b5njVbA?si=47mhj_I7ZOz62Ona",
+		"three": "https://www.youtube.com/embed/MmB9b5njVbA?si=47mhj_I7ZOz62Ona"
+  	}
+}

@@ -1,4 +1,4 @@
-var e = Object.create,
+﻿var e = Object.create,
   t = Object.defineProperty,
   n = Object.getOwnPropertyDescriptor,
   r = Object.getOwnPropertyNames,
@@ -9980,7 +9980,7 @@ function ft() {
     (o = T.createElement(
       T.Fragment,
       null,
-      T.createElement(`p`, null, `💿 Hey developer 👋`),
+      T.createElement(`p`, null, `рџ’ї Hey developer рџ‘‹`),
       T.createElement(
         `p`,
         null,
@@ -12418,7 +12418,7 @@ var or,
             let t = this.player.getDuration();
             if (!t) {
               console.warn(
-                `ReactPlayer: could not seek using fraction –\xA0duration not yet available`,
+                `ReactPlayer: could not seek using fraction вЂ“\xA0duration not yet available`,
               );
               return;
             }
@@ -12941,7 +12941,7 @@ var or,
           }, c),
             u.events &&
               console.warn(
-                "Using `embedOptions.events` will likely break things. Use ReactPlayer’s callback props instead, eg onReady, onPlay, onPause",
+                "Using `embedOptions.events` will likely break things. Use ReactPlayerвЂ™s callback props instead, eg onReady, onPlay, onPause",
               ));
         }
         play() {
@@ -16921,7 +16921,7 @@ const Fo = async () => {
       }
   },
   V = () => {
-    if (!Po) throw Error(`тровнуло`);
+    if (!Po) throw Error(`С‚СЂРѕРІРЅСѓР»Рѕ`);
     return Po;
   },
   { siteKey: Io } = { siteKey: `0x4AAAAAABem_EC8eZj8-qAW` };
@@ -17235,428 +17235,6 @@ var Go = ({
             ],
           }),
           (0, P.jsxs)(`div`, {
-            className: `container-margin ${F.homeAchievements}`,
-            children: [
-              (0, P.jsxs)(`div`, {
-                className: F.achievementsTitle,
-                children: [
-                  (0, P.jsxs)(`div`, {
-                    className: F.titleLeft,
-                    children: [
-                      (0, P.jsxs)(`div`, {
-                        className: F.leftFirst,
-                        "data-aos": `start-blur`,
-                        children: [
-                          (0, P.jsx)(`span`, {
-                            style: { fontFamily: `Icons` },
-                            children: `4`,
-                          }),
-                          `Achivements`,
-                        ],
-                      }),
-                      (0, P.jsxs)(`div`, {
-                        className: F.leftSecond,
-                        children: [
-                          (0, P.jsx)(`div`, {
-                            className: F.secondTitle,
-                            "data-aos": `start-blur`,
-                            children: `Learn more!`,
-                          }),
-                          (0, P.jsx)(`div`, {
-                            className: F.secondDescription,
-                            "data-aos": `start-blur`,
-                            children: `Our client offers convenient and powerful features to enhance your gameplay.`,
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                  (0, P.jsx)(`div`, {
-                    className: F.titleRight,
-                    "data-aos": `start-blur`,
-                    children: `1`,
-                  }),
-                ],
-              }),
-              (0, P.jsxs)(`div`, {
-                className: F.achievementsInteractive,
-                children: [
-                  (0, P.jsxs)(`div`, {
-                    className: F.interactiveLeft,
-                    children: [
-                      (0, P.jsx)(`div`, {
-                        className: F.leftFirst,
-                        "data-aos": `start-blur`,
-                        children: (0, P.jsxs)(`div`, {
-                          className: F.firstBlock,
-                          children: [
-                            (0, P.jsx)(`div`, {
-                              className: F.blockPattern,
-                              children: (0, P.jsx)($n, { src: wr }),
-                            }),
-                            (0, P.jsxs)(`div`, {
-                              className: F.blockMessages,
-                              children: [
-                                (0, P.jsxs)(`div`, {
-                                  className: F.blockMessage,
-                                  "data-aos": `start-blur`,
-                                  "data-aos-delay": `150`,
-                                  children: [
-                                    (0, P.jsx)(`div`, {
-                                      className: F.messageIcon,
-                                      style: { fontFamily: `Icons` },
-                                      translate: `no`,
-                                      children: `0`,
-                                    }),
-                                    (0, P.jsxs)(`div`, {
-                                      className: F.messageText,
-                                      children: [
-                                        (0, P.jsx)(`div`, {
-                                          className: F.textTitle,
-                                          children: `Support`,
-                                        }),
-                                        (0, P.jsx)(`div`, {
-                                          className: F.textDescription,
-                                          children: `Of course! How can I help you?`,
-                                        }),
-                                      ],
-                                    }),
-                                  ],
-                                }),
-                                (0, P.jsxs)(`div`, {
-                                  className: F.blockNthTwo,
-                                  children: [
-                                    (0, P.jsxs)(`div`, {
-                                      className: F.blockMessage,
-                                      "data-aos": `start-blur`,
-                                      "data-aos-delay": `250`,
-                                      children: [
-                                        (0, P.jsx)(`div`, {
-                                          className: F.messageIcon,
-                                          style: { fontFamily: `Icons` },
-                                          translate: `no`,
-                                          children: `V`,
-                                        }),
-                                        (0, P.jsxs)(`div`, {
-                                          className: F.messageText,
-                                          children: [
-                                            (0, P.jsx)(`div`, {
-                                              className: F.textTitle,
-                                              children: `User`,
-                                            }),
-                                            (0, P.jsx)(`div`, {
-                                              className: F.textDescription,
-                                              children: `Hey! Please help me!`,
-                                            }),
-                                          ],
-                                        }),
-                                      ],
-                                    }),
-                                    (0, P.jsxs)(`div`, {
-                                      className: F.blockMessage,
-                                      "data-aos": `start-blur`,
-                                      "data-aos-delay": `350`,
-                                      children: [
-                                        (0, P.jsx)(`div`, {
-                                          className: F.messageIcon,
-                                          style: { fontFamily: `Icons` },
-                                          translate: `no`,
-                                          children: `V`,
-                                        }),
-                                        (0, P.jsxs)(`div`, {
-                                          className: F.messageText,
-                                          children: [
-                                            (0, P.jsx)(`div`, {
-                                              className: F.textTitle,
-                                              children: `User`,
-                                            }),
-                                            (0, P.jsx)(`div`, {
-                                              className: F.textDescription,
-                                              children: `Tysm! This was quick!`,
-                                            }),
-                                          ],
-                                        }),
-                                      ],
-                                    }),
-                                  ],
-                                }),
-                                (0, P.jsxs)(`div`, {
-                                  className: F.blockMessage,
-                                  "data-aos": `start-blur`,
-                                  "data-aos-delay": `450`,
-                                  children: [
-                                    (0, P.jsx)(`div`, {
-                                      className: F.messageIcon,
-                                      style: { fontFamily: `Icons` },
-                                      translate: `no`,
-                                      children: `M`,
-                                    }),
-                                    (0, P.jsxs)(`div`, {
-                                      className: F.messageText,
-                                      children: [
-                                        (0, P.jsx)(`div`, {
-                                          className: F.textTitle,
-                                          children: `Support`,
-                                        }),
-                                        (0, P.jsx)(`div`, {
-                                          className: F.textDescription,
-                                          children: `Of course! How can I help you?`,
-                                        }),
-                                      ],
-                                    }),
-                                  ],
-                                }),
-                              ],
-                            }),
-                            (0, P.jsxs)(`div`, {
-                              className: F.interactiveLines,
-                              children: [
-                                (0, P.jsx)(`span`, {
-                                  "data-aos": `start-blur`,
-                                  "data-aos-delay": `550`,
-                                }),
-                                (0, P.jsx)(`span`, {
-                                  "data-aos": `start-blur`,
-                                  "data-aos-delay": `600`,
-                                }),
-                                (0, P.jsx)(`span`, {
-                                  "data-aos": `start-blur`,
-                                  "data-aos-delay": `650`,
-                                }),
-                                (0, P.jsx)(`span`, {
-                                  "data-aos": `start-blur`,
-                                  "data-aos-delay": `700`,
-                                }),
-                              ],
-                            }),
-                            (0, P.jsxs)(`div`, {
-                              className: F.interactiveDescription,
-                              children: [
-                                (0, P.jsx)(`div`, {
-                                  className: F.descriptionFirst,
-                                  children: (0, P.jsxs)(`div`, {
-                                    className: F.firstTitle,
-                                    children: [
-                                      (0, P.jsx)(`div`, {
-                                        className: F.titleIcon,
-                                        style: { fontFamily: `Icons` },
-                                        translate: `no`,
-                                        children: `K`,
-                                      }),
-                                      (0, P.jsx)(`div`, {
-                                        className: F.titleText,
-                                        children: `Support`,
-                                      }),
-                                    ],
-                                  }),
-                                }),
-                                (0, P.jsx)(`div`, {
-                                  className: F.descriptionSecond,
-                                  children: `Need help? Our 24/7 support is ready to assist you instantly — from setup to updates. Facing difficulties? Don't hesitate to reach out! We are always online and here to help, ensuring a smooth and enjoyable experience with our client!`,
-                                }),
-                              ],
-                            }),
-                          ],
-                        }),
-                      }),
-                      (0, P.jsxs)(`div`, {
-                        className: F.leftSecond,
-                        children: [
-                          (0, P.jsxs)(`div`, {
-                            className: F.secondBlock,
-                            "data-aos": `start-blur`,
-                            "data-aos-delay": `150`,
-                            children: [
-                              (0, P.jsx)(`div`, {
-                                className: F.blockMask,
-                                children: (0, P.jsx)($n, { src: Er }),
-                              }),
-                              (0, P.jsx)(`div`, {
-                                className: F.blockEnergyMark,
-                                children: (0, P.jsxs)(`div`, {
-                                  className: F.markIcon,
-                                  children: [
-                                    (0, P.jsx)(`div`, {
-                                      className: F.iconWheel,
-                                      children: (0, P.jsx)(Ar, {}),
-                                    }),
-                                    (0, P.jsx)(`span`, {
-                                      style: { fontFamily: `Icons` },
-                                      translate: `no`,
-                                      children: `U`,
-                                    }),
-                                  ],
-                                }),
-                              }),
-                              (0, P.jsxs)(`div`, {
-                                className: F.interactiveDescription,
-                                children: [
-                                  (0, P.jsx)(`div`, {
-                                    className: F.descriptionFirst,
-                                    children: (0, P.jsxs)(`div`, {
-                                      className: F.firstTitle,
-                                      children: [
-                                        (0, P.jsx)(`div`, {
-                                          className: F.titleIcon,
-                                          style: { fontFamily: `Icons` },
-                                          translate: `no`,
-                                          children: `p`,
-                                        }),
-                                        (0, P.jsx)(`div`, {
-                                          className: F.titleText,
-                                          children: `Optimization`,
-                                        }),
-                                      ],
-                                    }),
-                                  }),
-                                  (0, P.jsx)(`div`, {
-                                    className: F.descriptionSecond,
-                                    children: `Our client is known for optimization and smooth performance in Minecraft. With every update, we improve speed — we care only about your comfortable gameplay!`,
-                                  }),
-                                ],
-                              }),
-                            ],
-                          }),
-                          (0, P.jsxs)(`div`, {
-                            className: `${F.secondBlock} ${F.secondBlockEntity}`,
-                            "data-aos": `start-blur`,
-                            children: [
-                              (0, P.jsx)(`div`, {
-                                className: F.blockEntityRentgen,
-                                children: (0, P.jsxs)(`div`, {
-                                  ref: p,
-                                  className: F.compareContainer,
-                                  onMouseMove: x,
-                                  onMouseUp: b,
-                                  onMouseDown: y,
-                                  children: [
-                                    (0, P.jsx)(`div`, {
-                                      className: F.compareCharacter,
-                                      style: {
-                                        clipPath: `inset(0 ${100 - m}% 0 0)`,
-                                        zIndex: `var(--z-index)`,
-                                      },
-                                      children: (0, P.jsx)(Dr, {}),
-                                    }),
-                                    (0, P.jsx)(`div`, {
-                                      className: `${F.compareCharacter} ${F.compareMobile}`,
-                                      children: (0, P.jsx)(Or, {}),
-                                    }),
-                                    (0, P.jsx)(`div`, {
-                                      className: F.compareSliderLine,
-                                      style: { left: `${m}%` },
-                                      children: (0, P.jsx)(`div`, {
-                                        className: F.compareSliderHandle,
-                                      }),
-                                    }),
-                                  ],
-                                }),
-                              }),
-                              (0, P.jsxs)(`div`, {
-                                className: F.interactiveDescription,
-                                children: [
-                                  (0, P.jsx)(`div`, {
-                                    className: F.descriptionFirst,
-                                    children: (0, P.jsxs)(`div`, {
-                                      className: F.firstTitle,
-                                      children: [
-                                        (0, P.jsx)(`div`, {
-                                          className: F.titleIcon,
-                                          style: { fontFamily: `Icons` },
-                                          translate: `no`,
-                                          children: `Y`,
-                                        }),
-                                        (0, P.jsx)(`div`, {
-                                          className: F.titleText,
-                                          children: `Visualization`,
-                                        }),
-                                      ],
-                                    }),
-                                  }),
-                                  (0, P.jsx)(`div`, {
-                                    className: F.descriptionSecond,
-                                    children: `The visual side of the client is top-notch — from ESP to every little detail. We constantly improve functionality, because comfort starts with speed and usability!`,
-                                  }),
-                                ],
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                  (0, P.jsx)(`div`, {
-                    className: F.interactiveRight,
-                    children: (0, P.jsx)(`div`, {
-                      className: F.rightFirst,
-                      children: (0, P.jsxs)(`div`, {
-                        className: F.firstBlock,
-                        "data-aos": `start-blur`,
-                        children: [
-                          (0, P.jsx)(`div`, {
-                            className: F.blockMask,
-                            children: (0, P.jsx)($n, { src: Tr }),
-                          }),
-                          (0, P.jsx)(`div`, {
-                            className: F.blockCharacter,
-                            children: (0, P.jsx)(Sr, { activeModule: l }),
-                          }),
-                          (0, P.jsx)(`div`, {
-                            className: F.blockModules,
-                            children: i.map((e, t) =>
-                              (0, P.jsx)(
-                                Go,
-                                {
-                                  icon: e.icon,
-                                  title: e.title,
-                                  description: e.description,
-                                  width: `175px`,
-                                  enabled: l === e.title,
-                                  "data-aos": `start-blur`,
-                                  onToggle: (e, t) => {
-                                    u(t ? e : null);
-                                  },
-                                },
-                                t,
-                              ),
-                            ),
-                          }),
-                          (0, P.jsxs)(`div`, {
-                            className: F.interactiveDescription,
-                            children: [
-                              (0, P.jsx)(`div`, {
-                                className: F.descriptionFirst,
-                                children: (0, P.jsxs)(`div`, {
-                                  className: F.firstTitle,
-                                  children: [
-                                    (0, P.jsx)(`div`, {
-                                      className: F.titleIcon,
-                                      style: { fontFamily: `Icons` },
-                                      translate: `no`,
-                                      children: `9`,
-                                    }),
-                                    (0, P.jsx)(`div`, {
-                                      className: F.titleText,
-                                      children: `Combat`,
-                                    }),
-                                  ],
-                                }),
-                              }),
-                              (0, P.jsx)(`div`, {
-                                className: F.descriptionSecond,
-                                children: `Powerful movement and combat features — easy to configure, fast, and precise. Everything so that you feel in control in every PvP battle!`,
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                    }),
-                  }),
-                ],
-              }),
-            ],
-          }),
-          (0, P.jsxs)(`div`, {
             className: `container-margin ${F.homeStatistics}`,
             children: [
               (0, P.jsxs)(`div`, {
@@ -17945,7 +17523,7 @@ var Go = ({
   Qo = (0, T.createContext)(void 0);
 const $o = () => {
     let e = (0, T.useContext)(Qo);
-    if (!e) throw Error(`тровнуло`);
+    if (!e) throw Error(`С‚СЂРѕРІРЅСѓР»Рѕ`);
     return e;
   },
   es = ({ children: e }) => {
@@ -18780,7 +18358,7 @@ var Ss = () => {
                   children: [
                     (0, P.jsx)(`label`, { children: `Confirm Password` }),
                     (0, P.jsx)(Yo, {
-                      placeholder: `Сonfirm password...`,
+                      placeholder: `РЎonfirm password...`,
                       icon: `h`,
                       type: `password`,
                       value: d,
@@ -19268,7 +18846,7 @@ var Ss = () => {
   ks = (0, T.createContext)(void 0);
 const As = () => {
     let e = (0, T.useContext)(ks);
-    if (!e) throw Error(`тровнуло`);
+    if (!e) throw Error(`С‚СЂРѕРІРЅСѓР»Рѕ`);
     return e;
   },
   js = ({ children: e }) => {
@@ -21133,7 +20711,7 @@ var Vs = () => {
             }),
             (0, P.jsx)(I, {
               buttonType: `fill`,
-              description: `Pay ${p ? Number(e.price) - Number(e.price * (Number(p.replace(/\D/g, ``)) / 100)) : e.price}₽`,
+              description: `Pay ${p ? Number(e.price) - Number(e.price * (Number(p.replace(/\D/g, ``)) / 100)) : e.price}в‚Ѕ`,
               icon: `A`,
               loading: S,
               onClick: () => (C(!0), d(e.type, s, r, l)),
@@ -21210,7 +20788,7 @@ var Vs = () => {
                               children: [
                                 (0, P.jsxs)(`div`, {
                                   className: W.priceText,
-                                  children: [e.price, `₽`],
+                                  children: [e.price, `в‚Ѕ`],
                                 }),
                                 (0, P.jsx)(`span`, { children: `/` }),
                                 (0, P.jsxs)(`div`, {
@@ -21310,7 +20888,7 @@ var Vs = () => {
                               className: W.priceDetails,
                               children: (0, P.jsxs)(`div`, {
                                 className: W.priceText,
-                                children: [e.price, `₽`],
+                                children: [e.price, `в‚Ѕ`],
                               }),
                             }),
                             (0, P.jsx)(`div`, {
@@ -21357,7 +20935,7 @@ var Vs = () => {
                               className: W.priceDetails,
                               children: (0, P.jsxs)(`div`, {
                                 className: W.priceText,
-                                children: [e.price, `₽`],
+                                children: [e.price, `в‚Ѕ`],
                               }),
                             }),
                             (0, P.jsx)(`div`, {
@@ -21437,7 +21015,7 @@ var Vs = () => {
                   className: W.productsDescription,
                   "data-aos": `start-blur`,
                   "data-aos-delay": 150,
-                  children: `We assure you that you will not regret what our client bought — it's a high-quality product that exceeds.`,
+                  children: `We assure you that you will not regret what our client bought вЂ” it's a high-quality product that exceeds.`,
                 }),
               ],
             }),
@@ -28498,7 +28076,7 @@ var y_ = /[ \f\n\r\t\v\u2028\u2029]+/,
       };
     if (!l) return f;
     for (
-      var m = `…`,
+      var m = `вЂ¦`,
         h = function (e) {
           var t = b_({
               breakAll: c,
@@ -29956,7 +29534,7 @@ var zy = Array.prototype.map,
     `f`,
     `p`,
     `n`,
-    `µ`,
+    `Вµ`,
     `m`,
     ``,
     `k`,
@@ -29978,7 +29556,7 @@ function Vy(e) {
     i = e.decimal === void 0 ? `.` : e.decimal + ``,
     a = e.numerals === void 0 ? Ry : ky(zy.call(e.numerals, String)),
     o = e.percent === void 0 ? `%` : e.percent + ``,
-    s = e.minus === void 0 ? `−` : e.minus + ``,
+    s = e.minus === void 0 ? `в€’` : e.minus + ``,
     c = e.nan === void 0 ? `NaN` : e.nan + ``;
   function l(e) {
     e = jy(e);
@@ -45956,7 +45534,7 @@ var mR = function (e, t, n, r) {
                 `: `,
                 (0, P.jsxs)(`span`, {
                   style: { color: `var(--accent-color)`, fontWeight: `550` },
-                  children: [t[0].value, `₽`],
+                  children: [t[0].value, `в‚Ѕ`],
                 }),
               ],
             }),
@@ -46125,7 +45703,7 @@ var mR = function (e, t, n, r) {
                     children: [
                       `Total Amount Of Sale: `,
                       (0, P.jsx)(`span`, { children: s }),
-                      `₽`,
+                      `в‚Ѕ`,
                     ],
                   }),
                   (0, P.jsx)(`div`, {
@@ -57354,7 +56932,7 @@ var HZ = () => {
                 className: UZ.rightData,
                 style: { textAlign: `end` },
                 children: [
-                  `© `,
+                  `В© `,
                   i,
                   `Client, `,
                   new Date().getFullYear(),
@@ -58253,14 +57831,14 @@ var VQ = `/ogimage.png`,
       children: [
         (0, P.jsx)(`meta`, {
           name: `description`,
-          content: `Лучший DLC для комфортной игры в майнкрафт ${e}!`,
+          content: `Р›СѓС‡С€РёР№ DLC РґР»СЏ РєРѕРјС„РѕСЂС‚РЅРѕР№ РёРіСЂС‹ РІ РјР°Р№РЅРєСЂР°С„С‚ ${e}!`,
         }),
         (0, P.jsx)(`meta`, { property: `og:url`, content: t }),
         (0, P.jsx)(`meta`, { property: `og:type`, content: `website` }),
         (0, P.jsx)(`meta`, { property: `og:title`, content: `${e}Client` }),
         (0, P.jsx)(`meta`, {
           property: `og:description`,
-          content: `Лучший DLC для комфортной игры в майнкрафт ${e}!`,
+          content: `Р›СѓС‡С€РёР№ DLC РґР»СЏ РєРѕРјС„РѕСЂС‚РЅРѕР№ РёРіСЂС‹ РІ РјР°Р№РЅРєСЂР°С„С‚ ${e}!`,
         }),
         (0, P.jsx)(`meta`, {
           property: `og:image`,
@@ -58610,8 +58188,8 @@ var VQ = `/ogimage.png`,
         }
       },
       b = [
-        { id: 0, title: `Система Быстрых Платежей`, value: `SBP` },
-        { id: 1, title: `Карты (Visa/Mastercard/MIR)`, value: `RU_CARD` },
+        { id: 0, title: `РЎРёСЃС‚РµРјР° Р‘С‹СЃС‚СЂС‹С… РџР»Р°С‚РµР¶РµР№`, value: `SBP` },
+        { id: 1, title: `РљР°СЂС‚С‹ (Visa/Mastercard/MIR)`, value: `RU_CARD` },
         { id: 2, title: `FKWallet`, value: `FK_WALLET` },
       ],
       x = (t) =>
@@ -58659,7 +58237,7 @@ var VQ = `/ogimage.png`,
                     `Balance:`,
                   ],
                 }),
-                (0, P.jsxs)(`div`, { children: [u, `₽`] }),
+                (0, P.jsxs)(`div`, { children: [u, `в‚Ѕ`] }),
               ],
             }),
             (0, P.jsx)(`div`, {
@@ -58776,7 +58354,7 @@ var VQ = `/ogimage.png`,
                                 (0, P.jsx)(`td`, { children: e.invoicedBy }),
                                 (0, P.jsxs)(`td`, {
                                   className: KQ.amount,
-                                  children: [e.amount, `₽`],
+                                  children: [e.amount, `в‚Ѕ`],
                                 }),
                                 (0, P.jsxs)(`td`, {
                                   className: KQ[e.status.toLowerCase()],
@@ -59153,7 +58731,7 @@ var e$ = () => {
             if (!H.get(`ajax-cookie`)) return;
             let e = (await $Q.handleRollRoulette()).data,
               t = f.findIndex((t) => t.title === e);
-            if (t === -1) throw Error(`Приз не найден в массиве`);
+            if (t === -1) throw Error(`РџСЂРёР· РЅРµ РЅР°Р№РґРµРЅ РІ РјР°СЃСЃРёРІРµ`);
             let n =
               ((Math.floor(E / 2) + 3) * f.length + t) * w -
               r.current.offsetWidth / 2 +

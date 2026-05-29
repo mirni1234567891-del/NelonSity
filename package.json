@@ -2,7 +2,7 @@
   "name": "nelonclient",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm install --prefix backend && mkdir -p backend/public && cp index.html config.json icon.svg turnstile-mock.js backend/public/ && cp -r assets backend/public/assets || true",
+    "build": "npm install --prefix backend && mkdir -p backend/public && cp index.html config.json icon.svg logo.png turnstile-mock.js backend/public/ && cp -r assets backend/public/assets || true",
     "start": "node backend/server.js"
   }
 }

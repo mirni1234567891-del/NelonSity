@@ -2,7 +2,7 @@ services:
   - type: web
     name: nelonclient
     runtime: node
-    buildCommand: cd backend && npm install
+    buildCommand: npm install --prefix backend
     startCommand: node backend/server.js
     envVars:
       - key: PORT

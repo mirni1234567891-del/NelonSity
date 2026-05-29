@@ -32,8 +32,11 @@ app.use((req, res, next) => {
   next();
 });
 
-// Serve static frontend files
-app.use(express.static(path.join(__dirname, '..')));
+// Serve static frontend files - support both local dev and Render deployment
+const staticPath = require('fs').existsSync(path.join(__dirname, 'public', 'index.html'))
+  ? path.join(__dirname, 'public')
+  : path.join(__dirname, '..');
+app.use(express.static(staticPath));
 
 // ─── Init DB tables ───────────────────────────────────────────────────────────
 async function initDB() {
@@ -691,7 +694,7 @@ app.post('/cdn-cgi/rum', (req, res) => res.json({ ok: true }));
 
 // ─── Start ────────────────────────────────────────────────────────────────────
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'index.html'));
+  res.sendFile(path.join(staticPath, 'index.html'));
 });
 
 initDB().then(() => {

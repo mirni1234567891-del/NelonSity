@@ -1,0 +1,8 @@
+{
+  "name": "nelonclient",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd backend && npm install && mkdir -p public && cp ../index.html ../config.json ../icon.svg ../turnstile-mock.js public/ && cp -r ../assets public/assets",
+    "start": "node backend/server.js"
+  }
+}

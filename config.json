@@ -4,7 +4,7 @@
 	"version": "1.21.4",
 	"supportEmail": "support@sk3dcoin.art",
 	"url": "alekdlc.xyz",
-	"ajaxUrl": "http://localhost:3000/ajax/",
+	"ajaxUrl": "https://nelonclient.onrender.com/ajax/",
 	"funpayLink": "https://funpay.com/users/17387311/",
 	"turnStileSiteKey": "0x4AAAAAACJBd3RlH8e24TIf",
 	"clientColor": "#92a5d5",

@@ -2,6 +2,7 @@ services:
   - type: web
     name: nelonclient
     runtime: node
+    rootDir: backend
     buildCommand: npm install && mkdir -p public && cp -r ../index.html ../config.json ../assets ../icon.svg ../turnstile-mock.js public/ 2>/dev/null || true
     startCommand: node server.js
     envVars:
@@ -17,3 +18,5 @@ services:
         sync: false
       - key: DB_NAME
         sync: false
+      - key: BASE_URL
+        value: https://nelonclient.onrender.com

@@ -552,7 +552,8 @@ app.post('/ajax/payments/frontend/create', async (req, res) => {
   );
 
   // Return URL to payment page
-  res.json(`http://localhost:${PORT}/pay/${orderId}`);
+  const baseUrl = process.env.BASE_URL || `https://nelonclient.onrender.com`;
+  res.json(`${baseUrl}/pay/${orderId}`);
 });
 
 // ─── GET /pay/:orderId — payment page ────────────────────────────────────────
@@ -690,7 +691,8 @@ app.post('/ajax/payments/promocodes/apply', async (req, res) => {
 
 app.post('/ajax/admin/logs/getAllByCategory', (req, res) => res.json([]));
 app.post('/ajax/admin/autoload/getVersions', (req, res) => res.json([]));
-app.post('/cdn-cgi/rum', (req, res) => res.json({ ok: true }));
+app.post('/cdn-cgi/rum', (req, res) => res.status(200).end());
+app.get('/cdn-cgi/rum', (req, res) => res.status(200).end());
 
 // ─── Start ────────────────────────────────────────────────────────────────────
 app.get('*', (req, res) => {

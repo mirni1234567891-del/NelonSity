@@ -20711,7 +20711,7 @@ var Vs = () => {
             }),
             (0, P.jsx)(I, {
               buttonType: `fill`,
-              description: `Pay ${p ? Number(e.price) - Number(e.price * (Number(p.replace(/\D/g, ``)) / 100)) : e.price}в‚Ѕ`,
+              description: `Pay ${p ? Number(e.price) - Number(e.price * (Number(p.replace(/\D/g, ``)) / 100)) : e.price}₽`,
               icon: `A`,
               loading: S,
               onClick: () => (C(!0), d(e.type, s, r, l)),
@@ -20788,7 +20788,7 @@ var Vs = () => {
                               children: [
                                 (0, P.jsxs)(`div`, {
                                   className: W.priceText,
-                                  children: [e.price, `в‚Ѕ`],
+                                  children: [e.price, `₽`],
                                 }),
                                 (0, P.jsx)(`span`, { children: `/` }),
                                 (0, P.jsxs)(`div`, {
@@ -20888,7 +20888,7 @@ var Vs = () => {
                               className: W.priceDetails,
                               children: (0, P.jsxs)(`div`, {
                                 className: W.priceText,
-                                children: [e.price, `в‚Ѕ`],
+                                children: [e.price, `₽`],
                               }),
                             }),
                             (0, P.jsx)(`div`, {
@@ -20935,7 +20935,7 @@ var Vs = () => {
                               className: W.priceDetails,
                               children: (0, P.jsxs)(`div`, {
                                 className: W.priceText,
-                                children: [e.price, `в‚Ѕ`],
+                                children: [e.price, `₽`],
                               }),
                             }),
                             (0, P.jsx)(`div`, {
@@ -45534,7 +45534,7 @@ var mR = function (e, t, n, r) {
                 `: `,
                 (0, P.jsxs)(`span`, {
                   style: { color: `var(--accent-color)`, fontWeight: `550` },
-                  children: [t[0].value, `в‚Ѕ`],
+                  children: [t[0].value, `₽`],
                 }),
               ],
             }),
@@ -45703,7 +45703,7 @@ var mR = function (e, t, n, r) {
                     children: [
                       `Total Amount Of Sale: `,
                       (0, P.jsx)(`span`, { children: s }),
-                      `в‚Ѕ`,
+                      `₽`,
                     ],
                   }),
                   (0, P.jsx)(`div`, {
@@ -58238,7 +58238,7 @@ var VQ = `/ogimage.png`,
                     `Balance:`,
                   ],
                 }),
-                (0, P.jsxs)(`div`, { children: [u, `в‚Ѕ`] }),
+                (0, P.jsxs)(`div`, { children: [u, `₽`] }),
               ],
             }),
             (0, P.jsx)(`div`, {
@@ -58355,7 +58355,7 @@ var VQ = `/ogimage.png`,
                                 (0, P.jsx)(`td`, { children: e.invoicedBy }),
                                 (0, P.jsxs)(`td`, {
                                   className: KQ.amount,
-                                  children: [e.amount, `в‚Ѕ`],
+                                  children: [e.amount, `₽`],
                                 }),
                                 (0, P.jsxs)(`td`, {
                                   className: KQ[e.status.toLowerCase()],

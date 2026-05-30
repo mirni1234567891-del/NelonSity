@@ -683,10 +683,11 @@ app.post('/ajax/payments/promocodes/apply', async (req, res) => {
   const { token, code } = req.query;
   if (!token) return res.status(401).json('Unauthorized');
   const p = promocodes.get(code);
-  if (!p) return res.json({ valid: false, message: 'Promocode not found' });
-  if (p.usages >= p.maxActivations) return res.json({ valid: false, message: 'Promocode expired' });
+  if (!p) return res.json(null);
+  if (p.usages >= p.maxActivations) return res.json(null);
   p.usages++;
-  res.json({ valid: true, bet: p.bet, message: `Discount: ${p.bet}%` });
+  // Frontend expects a string like "5%" which it uses in p.replace(/\D/g, '') to get the number
+  res.json(`${p.bet}%`);
 });
 
 app.post('/ajax/admin/logs/getAllByCategory', (req, res) => res.json([]));

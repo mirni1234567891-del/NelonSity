@@ -21015,7 +21015,7 @@ var Vs = () => {
                   className: W.productsDescription,
                   "data-aos": `start-blur`,
                   "data-aos-delay": 150,
-                  children: `We assure you that you will not regret what our client bought вЂ” it's a high-quality product that exceeds.`,
+                  children: ``,
                 }),
               ],
             }),
